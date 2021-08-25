@@ -1,0 +1,66 @@
+body {
+  font-family: 'Montserrat',sans-serif;font-size: 20px;
+}
+
+.button {
+  width: 327px;
+  height: 60px;
+  left: 24px;
+  margin-left: 25px;
+  top: 531px;
+  display: inline-block;
+  padding: 15px 25px;
+  margin-top: 24px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: red;
+  background-color: #353bab;
+  border: black 200%;
+  border-radius: 10px;
+  position: bottom-center; 
+}
+
+.button:hover {background-color: #353bab; }
+
+.button:active {
+  background-color: #353BAB;
+}
+
+.img {
+  position-image: center;
+  width: 161px;
+  height: 161px;
+  left: 107px;
+  top: 171px;
+  margin-top: 171px;
+  margin-bottom: 0px;
+  margin-left: 107px;  
+  margin-right: 107px; 
+  text-align: center; 
+  position: bottom;
+}
+
+.sukses {
+  text-align: center;
+  position: bottom;
+  margin-top: 87px;
+}
+
+/* .text {
+  text-align: center; 
+  font-size: 32px;
+  padding: 0px, 24px, 0px, 24px ;
+  margin: 40px, 0px, 20px;
+} */
+
+.text {
+  color: black;
+  text-align: center; 
+  font-size: 32px; 
+  padding: 0px, 24px, 0px, 24px ; 
+  margin: 40px, 0px, 20px, 0px; 
+  font-weight: 900; 
+}

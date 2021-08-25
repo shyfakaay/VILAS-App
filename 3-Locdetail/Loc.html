@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>VILAS</title>
+	<link href="Loc.css" rel="stylesheet" type="text/css" />
+  
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
+	</script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="uk-section">
+		<h3 style="text-align:center;font-family: 'Montserrat', sans-serif;"><b>Hey, Whats Up!</b></h3>
+
+    <div class="box">
+      <img style="border-radius: 20px;" src="../../Images/Maps.jpeg">
+      </div>
+
+      <a class="button" href="#modal-center" style="text-align:center; color:#ffffff;font-family: 'Montserrat', sans-serif;" uk-toggle><b>Find Me</b></a>
+
+    <!-- <a class="uk-button uk-button-default" href="#modal-center" style="width: 327px; height: 60px; left: 24px;top: 531px;display: inline-block;padding: 10px 25px;font-size: 24px;cursor: pointer;text-align: center;text-decoration: none;outline: none;color: white;background-color: #353bab;border: black 200%;border-radius: 10px;position: bottom-center; border: 2px solid black; box-sizing: border-box;" uk-toggle>Find Me</a> -->
+
+  <div id="modal-center" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+      <button class="uk-modal-close-default" type="button" uk-close></button>
+      <div class="uk-modal-header" style="padding:8px;">
+        <h1 class="uk-modal-title" style="font-size:24px"><b>Location Permission</h1></b>
+        <p class="uk-modal-title" style="font-size:16px">Your location will be shared privately with your friends. You can stop it anytime.</p>
+        <p uk-margin>
+        
+        <a class="uk-button uk-button-primary" href="https://vilas-markoding01.markoding01.repl.co./4-Homepage/Home.html" style="font-size:12px">Allow</a>
+        <a class="uk-button uk-button-default" href="https://vilas-markoding01.markoding01.repl.co./4-Homepage/Home.html" style="font-size:12px">Later</a>
+        
+        </p>
+      </div>
+    </div>
+  </div>  
+
+    <!-- <p uk-margin>
+      <div id="modal-center" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+      <button id="js-modal-confirm" class="uk-button uk-button-default" href="#" class="button" style="text-align:center; color:#ffffff">Find Me</button>
+      </div>
+      </div>
+      <script>UIkit.util.on('#js-modal-confirm', 'click', function (e) {
+           e.preventDefault();
+           e.target.blur();
+           UIkit.modal.confirm('UIkit confirm!').then(function () {
+               console.log('Confirmed.')
+           }, function () {
+               console.log('Rejected.')
+           });
+       });</script>
+    </p>
+  </div> -->
+</body>
+</html>
+<!-- <a id="js-modal-confirm" class="uk-button uk-button-default" href="#">Confirm</a> --> 

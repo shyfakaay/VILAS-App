@@ -1,0 +1,42 @@
+body {
+  font-family: 'Montserrat',sans-serif;font-size: 20px;
+}
+
+.container {
+  max-width: 795px;
+  margin: 0 auto;
+  background-color: bisque;
+  height: 100vw;
+}
+
+.image1 {
+  border-radius: 50%;
+  width: 83px;
+  height: 83px;
+  border: 1.5px solid #000000;
+}
+
+.button1 {
+  background-color: #353bab;
+  height: 36px;
+  width: 110px;
+  left: 241px;
+  top: 624px;
+  border-radius: 12px;
+  padding: 10px, 16px, 10px, 16px; 
+  border: 1.5px solid black;
+  box-sizing: border-box;
+  margin-top: 60px;
+  margin-right: 24px;
+}  
+
+p {
+  color: black;
+}
+
+.fas {
+  margin-right: 24px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-box-radius: 50%;
+}

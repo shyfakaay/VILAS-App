@@ -1,0 +1,110 @@
+body {
+  font-family: 'Montserrat',sans-serif; 
+  font-size: 20px;
+}
+
+/* .uk-grid-column-medium {
+  padding-left: 0px;
+}
+
+.uk-first-column {
+  padding: 0px, 0px, 0px, 5px;
+} */
+
+.box {
+  background-color: #ffc010;
+  margin: 0 auto;
+  height: 70px;
+  padding:32px;
+  border: 1.5px solid #000000;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.vls-jdl {
+  margin-top:;
+  margin-left: 54px;
+  background-color: red;
+}
+
+.fas .fa-chevron-left {
+  margin-top: 100px;
+}
+
+.vls-content {
+  margin-bottom: 0px;
+  margin-top: 80px;
+}
+
+
+.button {
+  margin: 450px 0px 0px 26px;
+  width: 327px;
+  height: 60px;
+  /* left: 24px; */
+  top: 531px;
+  /* display: inline-block; */
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #353bab;
+  border: black 200%;
+  border-radius: 15px;
+  position: bottom-center; 
+}
+
+.button:hover {background-color: #353bab; }
+
+.button:active {
+  background-color: #353BAB;
+}
+
+.rounded-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+    height: 50px;
+    borde-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: #353bab;
+  
+    span{
+    color: white;
+    }
+}
+
+.pp {
+  border-radius: 15px;
+  border: 1.5px solid #000000;
+}
+
+.image1 {
+  margin-left: 0px;
+  border-radius: 10%;
+  width: 180px;
+  height: 180px;
+}
+
+
+.text-group {
+  margin-left: 24px;
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  color: black;
+}
+
+
+.uk-grid-medium {
+    padding-left: 30px;
+}

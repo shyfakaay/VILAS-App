@@ -1,0 +1,57 @@
+.mrg-btn{
+  margin-top: 40px;
+}
+
+.mrg-top{
+  margin-top: -780px;
+}
+
+.mrg-cekrek{
+  margin-top: -400px;
+}
+
+.gambar {
+  height: 100%;
+  width: 100%;
+}
+
+#snap {
+  margin-left: 20px !important;
+}
+
+.flip {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.icon-tabler-bolt-off {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.cekrek {
+  position: absolute;
+  left: 40%;
+  bottom: 320px;
+}
+
+.back {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.pesan {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.send {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
