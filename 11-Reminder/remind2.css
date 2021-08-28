@@ -11,6 +11,18 @@
     margin-bottom: 0px !important ;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.vls-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
+}
+
 /* Create two equal columns that sits next to each other */
 .column {
   flex: 10%;

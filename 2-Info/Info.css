@@ -2,6 +2,18 @@ body {
   font-family: 'Montserrat';font-size: 20px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.vls-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
+}
+
 h3 {
   text-align: center;
 }

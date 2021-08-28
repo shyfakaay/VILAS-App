@@ -17,6 +17,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
 	 crossorigin="anonymous">
 
+
 	</script>
 
 	<!-- UIkit CSS -->
@@ -29,12 +30,27 @@
 	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
 
 	</script>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
+<div class="vls-wrapper">
 
-	<section>
+  <div class="atas">    
+    <!-- <article class="uk-comment"> -->
+    <header class="uk-comment-header">
+        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+            <a href="https://vilas-markoding01.markoding01.repl.co/12-Chat/chat.html"  class="uk-first-column" style="margin-left:15px;"><svg xmlns="http://www.w3.org/2000/svg" class="icon" icon-tabler icon-tabler-chevron-left" width="48" height="48" stroke-width="0.5" stroke="#000000" fill="none"  viewBox="0 0 24 24"stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <polyline points="15 6 9 12 15 18" />
+      </svg>    
+      </a>
+      <h3 class="uk-comment-title uk-margin-remove" style="font-family: 'Montserrat', sans-serif; font-size:32px"><strong>Camera</strong></h3> 
+      </div>
+   </header>
+	<!-- <section> -->
 		<!-- <img src="./Images/coba2.jpeg" class="gambar"> -->
 		<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt-off mrg-btn" width="48" height="48" viewBox="0 0 24 24"
 		 stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round" style="float:right;">
@@ -43,27 +59,14 @@
 			<path d="M15.212 15.21l-4.212 5.79v-7h-6l3.79 -5.21m1.685 -2.32l2.525 -3.47v6m1 1h5l-2.104 2.893" />
 		</svg>
 
-		<div class="back">
-			<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left mrg-btn" width="48" height="48" viewBox="0 0 24 24"
-			 stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-				<polyline points="15 6 9 12 15 18" />
-			</svg>
-		</div>
-
+	
 		<!-- <a class="uk-button uk-button-default" href="#modal-center" uk-toggle> -->
 			<div class="cekrek" id="snap">
-				<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-capture mrg-cekrek" width="80" height="80" viewBox="0 0 24 24"
-				 stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-					<path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
-					<path d="M4 16v2a2 2 0 0 0 2 2h2" />
-					<path d="M16 4h2a2 2 0 0 1 2 2v2" />
-					<path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
-					<circle cx="12" cy="12" r="3" />
-				</svg>
         <!-- <img src="https://i.ibb.co/SBWnRfN/Mediamodifier-Design-Template-1.png" alt="Mediamodifier-Design-Template-1" class="mrg-cekrek"/> -->
-        <button id="snap">Snap Photo</button>
+        <div class="tombol" style="margin-top:-33px; margin-bottom: -60px;">
+    <button class="button" id="snap"  style="text-align:center; color:#ffffff;font-family: 'Montserrat', sans-serif;" ><b>Take a Photo</b></button>
+        <!-- <button id="snap">Snap Photo</button> -->
+			</div>
 			</div>
 		<!-- </a> -->
 
@@ -79,12 +82,37 @@
 			</svg>
 		</div>
 
-
-	</section>
-	<video id="video" width="1000" height="1000" autoplay></video>
+    
+	<!-- </section> -->
+	<video id="video" width="1200" height="1800" autoplay></video>
   <div style="margin-top:40">
     <canvas id="canvas" width="640" height="480"></canvas>
   </div>
+
+  <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>
+     <div class="pesan">
+     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" />
+      <line x1="8" y1="9" x2="16" y2="9" />
+      <line x1="8" y1="13" x2="14" y2="13" />
+      </svg>
+     </div>
+   </a>
+    <div id="modal-center" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog">
+        <div class="box">
+        <h3 style="text-align: center; color: black; margin-bottom: 0px; font-family: 'Montserrat', sans-serif;" ><b>Add Auto Message</b></h3>
+        <form>
+        <button class="btn-psn" formaction="#">I'm Wearing Mask</button>
+        <button class="btn-psn1" formaction="#">I’m Washing my Hands</button>
+        <button class="btn-psn2" formaction="#">I Do Physical Distancing</button>
+        </form>
+      </div>
+      </div>
+    </div>
+
     <script src="cam.js"></script>
+</div>
 </body>
 </html>

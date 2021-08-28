@@ -3,25 +3,26 @@
 }
 
 .slide-in-bottom {
-  background: #FFC010;
-  border-top: 2px solid black;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  box-sizing: border-box;
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  height: 150px;
-  z-index: 999;
-  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    background: #FFC010;
+    border-top: 2px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 71px;
+    z-index: 999;
+    animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+
 .active {
-  display: block;
-  height: 250px;
+    display: block;
+    height: 258px;
 }
+
 
 
 .swipe-btn {

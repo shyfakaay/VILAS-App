@@ -15,6 +15,17 @@
     margin-left: 51px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.vls-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
 .column1 {
   margin-top: 9px;
   margin-left: 97px;

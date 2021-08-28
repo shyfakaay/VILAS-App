@@ -1,6 +1,20 @@
-/* body {
-	background-color: white;
-} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+}
+
+.vls-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
+}
 
 .vls-konten {
   background-color: white;

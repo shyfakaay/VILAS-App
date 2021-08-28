@@ -9,6 +9,18 @@ body {
   border-bottom-right-radius: 15px;
   box-sizing: border-box;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.vls-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
 svg {
     max-width: 100%;
     height: auto;
@@ -27,10 +39,6 @@ svg {
 .uk-grid-column-medium>*, .uk-grid-medium>* {
     padding-left: 19px;
     padding-top: 1px;
-}
-
-.uk-grid-column-medium, .uk-grid-medium {
-  margin-left: 10px;
 }
 
 .box1 {
@@ -65,3 +73,4 @@ svg {
   border-radius: 12px;
   padding: 10px, 16px, 10px, 16px;
 }
+

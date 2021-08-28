@@ -4,6 +4,33 @@
   height: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+        box-sizing: border-box;
+    margin-right: 12px;
+    margin-left: -99px;
+    margin-top: -7px;
+}
+
+.zone {
+  margin: -7px;
+}
+
+
+.vls-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
+}
+
 /* Optional: Makes the sample page fill the window. */
 html,
 body {
@@ -126,25 +153,26 @@ color:#353BAB;
 }
 
 .button1 {
-  border: 2px solid black;
-  box-sizing: border-box;
-  width: 310px;
-  height: 40px;
-  left: 32.5px;
-  top: 531px;
-  display: inline-block;
-  padding: 10px 0px 10px 20px;
-  margin-top: 23px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  background-color: white;
-  border: black 200%;
-  border-radius: 10px;
-  position: bottom-center; 
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 310px;
+    height: 40px;
+    left: 32.5px;
+    top: 531px;
+    display: inline-block;
+    padding: 10px 0px 10px 20px;
+    margin-top: 51px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: white;
+    border: black 200%;
+    border-radius: 10px;
+    position: bottom-center;
 }
+
 
 .button:hover {background-color: #353bab; }
 
@@ -155,3 +183,4 @@ color:#353BAB;
 .kotak {
   margin-left: 20px;
 }
+

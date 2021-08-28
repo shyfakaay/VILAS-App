@@ -5,11 +5,15 @@ body {
 
 /* .uk-grid-column-medium {
   padding-left: 0px;
+} */
+
+.uk-grid-column-medium {
+    margin-left: -86px;
+}
+.uk-grid-medium {
+    margin-left: -74px;
 }
 
-.uk-first-column {
-  padding: 0px, 0px, 0px, 5px;
-} */
 
 .box {
   background-color: #ffc010;
@@ -104,7 +108,14 @@ body {
   color: black;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
-.uk-grid-medium {
-    padding-left: 30px;
+.vls-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
 }
