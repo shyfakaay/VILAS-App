@@ -4,6 +4,7 @@
 }
 
 .vls-wrapper {
+  /* margin-left: 30px !important; */
   max-width: 375px;
   margin: 0 auto;
   background-color: white;
@@ -74,10 +75,12 @@ color: white;
 }
 
 .button {
+  max-width: 375px;
+  margin: 0 auto !important;
   width: 312px;
   height: 60px;
   left: 24px;
-  margin-left: 25px;
+  /* margin-left: 25px; */
   top: 531px;
   display: inline-block;
   padding: 15px 25px;

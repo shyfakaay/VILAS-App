@@ -7,6 +7,7 @@
 	<title>Sample Google Map</title>
 	<link rel="stylesheet" href="./bottomsheet-style.css">
 	<link rel="stylesheet" href="Home.css">
+  <link rel="stylesheet" href="remind.css">
 	<link rel="stylesheet" href="Home.js">
 	<!-- Langkah 1: Menyisipkan library Google Maps -->
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-joHIQ1oEOF4Fiua9E5gDmNhIiT6RI2g&callback=initMap">
@@ -58,7 +59,7 @@
 					<td style="background:#B3AEB5;">
 						<div class="form-group text-center">
 							<section>
-								<a class="button1" href="https://vilas-markoding01.markoding01.repl.co/5-Infocovid/cov.html" style="text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:16px">
+								<a class="search" href="https://vilas-markoding01.markoding01.repl.co/5-Infocovid/cov.html" style="text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:16px">
 									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24"
 									 stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
 										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -73,35 +74,35 @@
   <div class="uk-flex uk-flex-center@s">
   <div class="kotak">
     <form>
-    <a href="#modal-center" uk-toggle><button class="btn1"><i class="fas fa-info"></i></button></a>
+    <a href="#modal-center" uk-toggle><button class="vls1"><i class="fas fa-info"></i></button></a>
     </form>
-    <div class="text-group">
+    <div class="aaa">
       <!-- <a href="#modal-center" uk-toggle> -->
         <h3 style=" text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:14px; margin-left: -21px;">
-          <b>Information</b>
+          <b class="inf">Information</b>
         </h3>
       <!-- </a> -->
     </div>
   </div></i></button>
   <div class="kotak">
     <form>
-      <button  class="btn2" formaction="https://vilas-markoding01.markoding01.repl.co/8-Group%20/gr.html"><i class="fas fa-users"></i></button>
+      <button  class="vls2" formaction="https://vilas-markoding01.markoding01.repl.co/8-Group%20/gr.html"><i class="fas fa-users"></i></button>
 <!--  -->
  <!-- <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>i</a> -->
 
 
     </form>
-    <div class="text-group1">
-      <h3 style=" text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:14px;margin-left: -20px;"><b>Group</b></h3>
+    <div class="bbb">
+      <h3 style=" text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:14px;margin-left: -145px;"><b>Group</b></h3>
     </div>
   </div>
 
   <div class="kotak">
   <form>
-    <button class="btn3" formaction="https://vilas-markoding01.markoding01.repl.co/14-Notif/notif.html"><i class="fas fa-bell"></i></button>
+    <button class="vls3" formaction="https://vilas-markoding01.markoding01.repl.co/14-Notif/notif.html"><i class="fas fa-bell"></i></button>
   </form>
-  <div class="text-group2">
-  <h3 style=" text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:14px; margin-left: -19px;"><b>Notification</b></h3>
+  <div class="ccc">
+  <h3 style=" text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:14px; margin-left: -75px;"><b>Notification</b></h3>
   </div>
   </div>
   </div>
@@ -114,7 +115,8 @@
    </div>
    </div> -->
   </div>
-  
+
+<!-- modal information -->
    <div id="modal-center" class="uk-flex-top" uk-modal>
       <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
         <button class="uk-modal-close-default" type="button" uk-close></button>
@@ -135,6 +137,84 @@
         </div>
       </div>
     </div>
+
+    
+    	<div class="container-slide" onclick="openUpSheet()">
+		<div class="slide-up"><header class="uk-comment-header">
+        <!-- <div onclick="openBottomSheet()"></div> -->
+ <td style="background:#B3AEB5;">
+					<div class="form-group text-center">
+            <div class="input-group" style="margin:auto;">
+              <div class="row">
+							<div class="column1">
+              <h3 class="nama" style="font-family: 'Montserrat', sans-serif;"><strong>Harry Stwart</strong></h3>
+              </div>
+              <section>
+              <div class="column">
+                <a href="https://vilas-markoding01.markoding01.repl.co/4-Homepage/Home.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+</svg>
+</div>
+</section>
+</div>
+            <i class="fas fa-map-marker-alt"></i><span style="font-family: 'Montserrat', sans-serif;"><strong> Tip Top</strong></i></span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="rmd-text">
+              <h4 style="font-family: 'Montserrat', sans-serif;"><strong>Reminder</strong></h3>
+            </div>
+            <div class="uk-flex uk-flex-center@s">
+              <div class="kotak">
+                <form>
+                  <a href="#modal-center" uk-toggle>
+                <button class="btn1" formaction="https://vilas-markoding01.markoding01.repl.co/4-Homepage/remind1.html?">
+                <img class="image1" src="../../Images/mask.png"></button></a>
+                <!-- <i class="fas fa-info"></i></button></a> -->
+                </form>
+                <div class="text-group">
+                  <h3 style=" text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:14px; margin-left: -33px;">
+                  <b>Wear Your Mask</b></h3>
+                </div>
+              </div>
+              <div class="kotak1">
+                <form>
+                  <button  class="btn2" formaction="https://vilas-markoding01.markoding01.repl.co/4-Homepage/remind2.html?">
+                   <img class="image1" src="../../Images/Wash.png"></button>
+                  <!-- <button  class="btn2" formaction="https://vilas-markoding01.markoding01.repl.co/8-Group%20/gr.html"><i class="fas fa-users"></i></button> -->
+                </form>
+                <div class="text-grp1">
+                  <h3 style=" text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:14px; margin-left: -1px;"><b>Wash Your Hands</b></h3>
+                </div>
+              </div>
+              <div class="kotak2">
+                <form>
+                  <button class="btn3" formaction="https://vilas-markoding01.markoding01.repl.co/4-Homepage/remind3.html?"> 
+                  <img src="../../Images/Distance.png"></button>
+                  <!-- <button class="btn3" formaction="https://vilas-markoding01.markoding01.repl.co/14-Notif/notif.html"><i class="fas fa-bell"></i></button> -->
+                </form>
+                <div class="text-group2">
+                  <h3 style=" text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:14px; margin-left: -59px;"><b>Physical Distancing</b></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="to-cmr">
+            <div class="rmd-text">
+              <h4 class="chat" style="font-family: 'Montserrat', sans-serif;"><strong>Chat</strong></h3>
+              <div class="uk-margin">
+                <a class="button1" style="text-align:center; color:#ffffff; font-family: 'Montserrat', sans-serif;" href="https://vilas-markoding01.markoding01.repl.co/12-Chat/chat.html">Send a message</a>
+              </div>
+            </div>
+
+          </div>
+
+        </td>
+      </div>
+
   <script src="Home.js"></script>
 </div>
 </body>

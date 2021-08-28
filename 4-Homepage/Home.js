@@ -53,6 +53,17 @@ function openBottomSheet() {
   }
   document.querySelector('.slide-in-bottom').classList.add('active');
 }
+
+function openUpSheet() {
+  console.log('masuk sini ')
+  const slideBottom = document.querySelector('.slide-up');
+  // untuk menutup bottom sheet
+  if (slideBottom.classList.contains('activeup')) {
+    return slideBottom.classList.remove('activeup')
+  }
+  document.querySelector('.slide-up').classList.add('activeup');
+}
+
 let map, infoWindow;
 
 
@@ -94,6 +105,8 @@ function initMap() {
     // Add a click listener for each marker, and set up the info window.
     marker_group.addListener("click", () => {
       // console.log('masuk sini')
+      // openBottomSheet()
+      openUpSheet()
       infoWindow.close();
       infoWindow.setContent(marker_group.getTitle());
       infoWindow.open(marker_group.getMap(), marker_group);
