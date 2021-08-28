@@ -49,8 +49,12 @@
 
 <body onload="initMap()">
 	<div class="vls-wrapper">
+  
 		<!-- Langkah 2: Elemen yang akan menjadi kontainer peta -->
 		<div id="map" style="width:100%; height:673px;"></div>
+<div class="uk-text-left"> 
+	  <button class="uk-button uk-button-primary" onclick="handleGetImage()" style="text-align:center; color:#ffffff; font-size:16px; margin-right: 550px; margin-top: 50px; padding: 8px; position:absolute; top: 20px; right:20px"><b>Profile</button></b>
+  </div> 
 
 		<div class="container-slide">
 			<div class="slide-in-bottom">
@@ -59,14 +63,14 @@
 					<td style="background:#B3AEB5;">
 						<div class="form-group text-center">
 							<section>
-								<a class="search" href="https://vilas-markoding01.markoding01.repl.co/5-Infocovid/cov.html" style="text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:16px">
+								<a class="search" href="https://vilas-markoding01.markoding01.repl.co/5-Infocovid/cov.html" style="text-align:center; color:black;font-family: 'Montserrat', sans-serif; font-size:16px; "> 
 									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24"
 									 stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
 										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 										<circle cx="10" cy="10" r="7" />
 										<line x1="21" y1="21" x2="15" y2="15" />
 									</svg>
-									<b class="zone">Search Covid-19 Zone...</b></a>
+									<b>Search Covid-19 Zone...</b></a>
               </section>
           </div>
         </td>
@@ -122,19 +126,22 @@
         <button class="uk-modal-close-default" type="button" uk-close></button>
         <h5><b>Color sign inside of Photo Profile means ...</b></h5>
         
-        
         <div class="uk-column-1-2">
           <p style="font-family: 'Montserrat', sans-serif;"> In The Crowd</p>
-          <i class="fas fa-circle" style="color: #FF3B10";></i>
+          <div class="lingkaran1"></div>
         </div>
+
+
         <div class="uk-column-1-2">
           <p style="font-family: 'Montserrat', sans-serif;">On The Way</p>
-          <i class="fas fa-circle" style="color: #FFD910";></i>
+          <div class="lingkaran2"></div>
         </div>
+      
         <div class="uk-column-1-2">
           <p style="font-family: 'Montserrat', sans-serif;">At Home</p>
-          <i class="fas fa-circle" style="color: #10FF61";></i>
+          <div class="lingkaran3"></div>
         </div>
+
       </div>
     </div>
 
