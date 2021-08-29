@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width"/>
 	<title>Profile</title>
 	<link href="pro.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
 	 crossorigin="anonymous">
+
 	<!-- UIkit CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
 
 	<!-- UIkit JS -->
-	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
-
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
-
-	</script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -25,51 +21,53 @@
 
 <body>
   <div class="vls-wrapper">
-	<main class="container"> 
-  <div class="body-konten">
-    <div class="uk-width-auto">
-      <a href="https://vilas-markoding01.markoding01.repl.co/4-Homepage/Home.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon" icon-tabler icon-tabler-chevron-left" width="48" height="48" viewBox="0 0 24 24" stroke-width="0.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <polyline points="15 6 9 12 15 18" />
-      </svg>
-      </a>
-    </div>
-		<img class="img" src="../../Images/mom.jpg">
+    <div class="body-konten">
+      <div class="uk-width-auto">
+        <a href="https://vilas-markoding01.markoding01.repl.co/4-Homepage/Home.html">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" icon-tabler icon-tabler-chevron-left" width="48" height="48" viewBox="0 0 24 24" stroke-width="0.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <polyline points="15 6 9 12 15 18" />
+        </svg>
+        </a>
+      </div>
+      <img class="img" src="../../Images/mom.jpg">
 
-    <form action="https://6106121f48c6fd0017089fbf.mockapi.io/profile" id="example-form">
+      <form action="https://6106121f48c6fd0017089fbf.mockapi.io/profile" id="example-form">
 
-    <hr>
-    <div class= "box">
-      <h3 class="teks" style=" color:black;font-family: 'Montserrat', sans-serif; font-size:16px" ><b>Name</b>
-      <label for="nama"></label>
-      <input class="uk-input uk-form-width-large" type="text" id= "name" placeholder="Bill Rizer"  name="name"><br><br>
-    </div>
+        <hr>
+        <div class= "box">
+          <h3 class="teks" style=" color:black;font-family: 'Montserrat', sans-serif; font-size:16px" ><b>Name</b>
+          <label for="nama"></label>
+          <input class="uk-input uk-form-width-large" type="text" id= "name" placeholder="Bill Rizer"  name="name" required><br><br>
+        </div>
 
-    <div class= "box">
-      <h3 class="teks" style=" color:black;font-family: 'Montserrat', sans-serif; font-size:16px" ><b>Email</b>
-      <label for="email"></label>
-      <input class="uk-input uk-form-width-large" type="text" id= "email" placeholder="rizerb@gmail.com " name="email"><br><br>
-    </div>
+        <div class= "box">
+          <h3 class="teks" style=" color:black;font-family: 'Montserrat', sans-serif; font-size:16px" ><b>Email</b>
+          <label for="email"></label>
+          <input class="uk-input uk-form-width-large" type="text" id= "email" placeholder="rizerb@gmail.com " name="email" required><br><br>
+        </div>
 
-    <div class= "box">
-      <h3 class="teks" style=" color:black;font-family: 'Montserrat', sans-serif; font-size:16px" ><b>Phone</b>
-      <label for="phone"></label>
-      <input class="uk-input uk-form-width-large" type="text" id= "phone" placeholder="081234567890" name="phone"><br><br>
-    </div>
-    </hr>
-    <form>
-    <button formaction="https://vilas-markoding01.markoding01.repl.co/7-Succes/suc.html" class="button1" type="submit" style="text-align:center; color:#ffffff">Done</button> 
-    </form>
-  </div>
-
-
-    <!-- Button  -->
-  <div class="uk-margin">
-    <button class="button" style="text-align:center; color:#ffffff">Log Out</button>
-  </div>
-  </form>
+        <div class= "box">
+          <h3 class="teks" style=" color:black;font-family: 'Montserrat', sans-serif; font-size:16px" ><b>Phone</b>
+          <label for="phone"></label>
+          <input class="uk-input uk-form-width-large" type="text" id= "phone" placeholder="081234567890" name="phone" required><br><br>
+        </div>
+        </hr>
+        
+        <!-- <button onclick="getVerify()" class="button1" type="submit" style="text-align:center; color:#ffffff" >Done</button>  -->
+        <!-- Button  -->
+        <div class="uk-margin">
+          <button class="button1" type="submit" style="textlign:center; color:#ffffff" >Done</button>
+        </div>
+      </form>
+      
+      <div>
+        <form>
+        <button class="button" formaction="https://vilas-markoding01.markoding01.repl.co/" style="text-align:center; color:#ffffff">Log Out</button>
+        </form>
+      </div>
     </div>  
-    </div>   
+  </div>
+    <script src='pro.js'></script> 
 </body>
-  <script src=pro.js></script>
 </html>

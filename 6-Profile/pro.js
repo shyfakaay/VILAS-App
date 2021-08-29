@@ -6,6 +6,7 @@
  * @param {FormData} options.formData - `FormData` instance
  * @return {Object} - Response body from URL that was POSTed to
  */
+
 async function postFormDataAsJson({ url, formData }) {
 	const plainFormData = Object.fromEntries(formData.entries());
 	const formDataJsonString = JSON.stringify(plainFormData);
@@ -14,20 +15,21 @@ async function postFormDataAsJson({ url, formData }) {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",
-			Accept: "https://6106121f48c6fd0017089fbf.mockapi.io/profile",
+			"Accept":"application/json",
 		},
 		body: formDataJsonString,
 	};
 
-	const response = await fetch(url, fetchOptions);
-
-	if (!response.ok) {
-		const errorMessage = await response.text();
-		throw new Error(errorMessage);
-	}
-
-	return response.json();
+  fetch(url, fetchOptions).then(res => {
+    res.json().then(response => {
+      console.log({response})
+      if (response) {
+        window.location.href = "https://vilas-markoding01.markoding01.repl.co/7-Succes/suc.html";
+      }
+    })
+  })
 }
+
 
 /**
  * Event handler for a form submit event.
@@ -54,3 +56,7 @@ async function handleFormSubmit(event) {
 
 const exampleForm = document.getElementById("example-form");
 exampleForm.addEventListener("submit", handleFormSubmit);
+
+// function getVerify() {
+//   Window.open("https://vilas-markoding01.markoding01.repl.co/7-Succes/suc.html")
+// }

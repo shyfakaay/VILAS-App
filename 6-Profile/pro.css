@@ -1,20 +1,26 @@
-body {
-  background-color: #ffc010;
-  max-width: 800px;
-  margin: 0 auto;
-  height: 575px;
-  border-bottom: 15px;
-  border: 2px solid black;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.uk-input, .uk-select:not([multiple]):not([size]) {
-    width: 316px !important;
-    height: 40px;
-    vertical-align: middle;
-    display: inline-block;
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.vls-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #ffc010;
+  height: 100vh;
+}
+
+.uk-input,
+.uk-select:not([multiple]):not([size]) {
+  width: 316px !important;
+  height: 40px;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .teks {
@@ -24,7 +30,7 @@ body {
   height: 70px;
   width: 350px;
   background-color: white;
-  border-radius:10px;
+  border-radius: 10px;
   margin-left: 10px;
   margin-bottom: 12px;
   box-sizing: border-box;
@@ -43,9 +49,8 @@ img {
 }
 
 .text-center {
-  text-align:center;
+  text-align: center;
 }
-
 
 .button {
   margin-top: 8px;
@@ -64,13 +69,15 @@ img {
   background-color: #353bab;
   border: black 200%;
   border-radius: 15px;
-  position: bottom-center; 
+  position: bottom-center;
 }
 
-.button:hover {background-color: #353bab; }
+.button:hover {
+  background-color: #353bab;
+}
 
 .button:active {
-  background-color: #353BAB;
+  background-color: #353bab;
 }
 
 .uk-section {
@@ -91,16 +98,4 @@ img {
   top: 624px;
   border-radius: 12px;
   padding: 10px, 16px, 10px, 16px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.vls-wrapper {
-  max-width: 375px;
-  margin: 0 auto;
-  background-color: white;
-  height: 100vh;
 }

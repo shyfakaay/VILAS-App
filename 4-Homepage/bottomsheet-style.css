@@ -79,7 +79,9 @@ animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
 .activeup {
   display: block;
-  height: 450px;
+  /* height: 624px; */
+   height: 447px;
+    margin-bottom: 180px;
 }
 
 

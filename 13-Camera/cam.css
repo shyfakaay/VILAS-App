@@ -18,7 +18,7 @@
   background-color: #FFBD12;
   width: 235px;
   height: 259px;
-  margin-left: 8px;
+  margin-left: 50px !important;
   top: 350px;
   border: 2px solid black;
   box-sizing: border-box;
@@ -75,7 +75,7 @@ color: white;
 }
 
 .button {
-  max-width: 375px;
+  max-width: 375px !important;
   margin: 0 auto !important;
   width: 312px;
   height: 60px;
@@ -116,7 +116,7 @@ color: white;
 }
 
 #snap {
-    margin-left: -58px !important;
+    margin-left: -44px !important;
 }
 
 .flip {
@@ -167,9 +167,10 @@ margin-right: 24px;
     margin-left: -61px;
 }
 .tombol {
-  margin-top: 73px;
+  max-width: 375px !important;
+  margin-top:0px !important;
   margin-bottom: -52px;
-  margin-left: -2px;
+  margin-left: 68px;
 }
 
 #canvas {
@@ -188,4 +189,10 @@ margin-right: 24px;
 
 #video {
   margin-top: 6px;
+}
+
+@media only screen and (max-width: 1200px) {
+#modal-center {
+  padding-left:250px !important;
+}
 }

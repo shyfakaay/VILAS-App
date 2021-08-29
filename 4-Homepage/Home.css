@@ -86,6 +86,26 @@ color:#353BAB;
   position: bottom-center; 
 }
 
+.flo {
+      padding: 5px !important;
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  /* left: 24px;
+  top: 531px; */
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #353bab;
+  border: black 200%;
+  border-radius: 10px;
+}
+
 .vls1 {
   background-color: #353bab;
   margin-left: 10px;

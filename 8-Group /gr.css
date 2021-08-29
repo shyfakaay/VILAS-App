@@ -1,32 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: 'Montserrat',sans-serif; 
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+}
+
+.vls-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
 }
 
 /* .uk-grid-column-medium {
   padding-left: 0px;
 } */
 
-.uk-grid-column-medium {
-    margin-left: -86px;
-}
-.uk-grid-medium {
-    margin-left: -74px;
+.uk-grid-column-medium>*, .uk-grid-medium>* {
+    padding-left: 12px !important;
 }
 
+/* .uk-grid-column-medium {
+  margin-left: -86px;
+}
+.uk-grid-medium {
+  margin-left: -74px;
+} */
 
 .box {
   background-color: #ffc010;
   margin: 0 auto;
-  height: 70px;
-  padding:32px;
+  height: 49px;
+  padding: 32px;
   border: 1.5px solid #000000;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
 .vls-jdl {
-  margin-top:;
+  /* margin-top: ; */
   margin-left: 54px;
   background-color: red;
 }
@@ -39,7 +54,6 @@ body {
   margin-bottom: 0px;
   margin-top: 80px;
 }
-
 
 .button {
   margin: 450px 0px 0px 26px;
@@ -57,31 +71,33 @@ body {
   background-color: #353bab;
   border: black 200%;
   border-radius: 15px;
-  position: bottom-center; 
+  position: bottom-center;
 }
 
-.button:hover {background-color: #353bab; }
+.button:hover {
+  background-color: #353bab;
+}
 
 .button:active {
-  background-color: #353BAB;
+  background-color: #353bab;
 }
 
 .rounded-button {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 150px;
-    height: 50px;
-    borde-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:white;
-    background-color: #353bab;
-  
-    span{
-    color: white;
-    }
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 150px;
+  height: 50px;
+  borde-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #353bab;
+}
+
+.rounded-button .span {
+  color: white;
 }
 
 .pp {
@@ -96,9 +112,8 @@ body {
   height: 180px;
 }
 
-
 .text-group {
-  margin-left: 24px;
+  margin-left: 36px;
 }
 
 .column {
@@ -107,16 +122,4 @@ body {
   padding: 10px;
   height: 300px;
   color: black;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.vls-wrapper {
-  max-width: 375px;
-  margin: 0 auto;
-  background-color: white;
-  height: 100vh;
 }
