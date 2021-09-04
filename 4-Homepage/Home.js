@@ -83,7 +83,7 @@ function initMap() {
   });
 
   const my_group = [
-    [{ lat: -6.4, lng: 106.8186111 }, "Shyfaa"],
+    [{ lat: -6.4, lng: 106.8186111 }, "Shyfa"],
     [{ lat: -6.5971469, lng: 106.8060388 }, "Hanin"],
     [{ lat: -6.1780556, lng: 106.63 }, "Raissa"],
   ];

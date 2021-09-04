@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>VILAS</title>
+    <link href="login.css" rel="stylesheet" type="text/css" />
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="vls-wrapper">
+        <img class="bg" src="../../Images/login.jpeg">
+        <div class="box">
+            <div class="row">
+                <div class="column1">
+                    <h3 class="nama" style="font-family: 'Montserrat', sans-serif; color: black;"><strong>Login</strong>
+                    </h3>
+                </div>
+                <section>
+                    <div class="column">
+                        <a href="https://vilas-markoding01.markoding01.repl.co/"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="30" height="30" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                            </a>
+                    </div>
+                </section>
+            </div>
+            <form action="https://6106121f48c6fd0017089fbf.mockapi.io/login" id="example-form">
+                <div class="box1">
+                    <div class="box2">
+                        <div class="inputBox">
+                            <input type="email" name="email" required onkeyup="this.setAttribute('value', this.value);"
+                                value="">
+                            <label style="font-size: 14px; margin-bottom:8px; margin-left: 14px">Email Address</label>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <div class="inputBox">
+                            <input type="password" name="password" required value=""
+                                onkeyup="this.setAttribute('value', this.value);"
+                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                            <label style="font-size: 14px; margin-bottom:8px; margin-left: 14px;">Password</label>
+                        </div>
+                    </div>
+            </form>
+            <button class="button" style="text-align:center;" type="submit" name="submit" value="Login">Login
+            </button>
+            
+            <p style="text-align:center; font-size:11px; color:black;"><strong>Dont have account? <a
+                                    href="  https://vilas-markoding01.markoding01.repl.co/9-Daftar/regis.html">Sign Up</a></strong>
+                        </p>
+        </div>
+        
+    </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
